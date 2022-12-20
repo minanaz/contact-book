@@ -1,0 +1,128 @@
+.container{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    width: 25%;
+    height: 350px;
+    background-color: rgb(207, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.form h2 {
+    margin-bottom: 0px;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    height: 45px;
+    background-color: rgb(204, 178, 230);
+    border-radius: 10px;
+    border-color: rgb(204, 178, 230);
+}
+.form div input {
+    height: 25px;
+    border-radius: 10px;
+    border-color: rgb(207, 206, 206);
+
+}
+
+.contacts{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-data{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 191, 191);
+    padding: 15px;
+    margin: 20px;
+}
+.contact-img{
+    height: 300px;
+    width: 100%
+}
+
+.contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .contact-info{
+    display: flex;
+    flex-direction: column;
+} */
+
+.modal-wrapper{
+    display: none;
+
+    position: fixed;
+    background-color: rgba(63, 61, 61, 0.717);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.modal-form{
+    margin: 0 auto;
+    width: 25%;
+    height: 350px;
+    background-color: rgb(207, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.modal-form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+}
+.modal-save{
+    margin-top: 10px;
+    height: 60px;
+    background-color: rgb(204, 178, 230);
+    border-radius: 10px;
+    border-color: rgb(204, 178, 230);
+}
+.modal-form div input {
+    height: 25px;
+    border-radius: 10px;
+    border-color: rgb(207, 206, 206);
+}
+.close-btn{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: rgb(204, 178, 230);
+    border-radius: 10px;
+    border-color: rgb(204, 178, 230);
+}
